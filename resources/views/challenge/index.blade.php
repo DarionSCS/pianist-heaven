@@ -5,6 +5,6 @@
         <h1 class="text-3xl font-bold text-center mb-4 text-white">Random Song Challenge</h1>
 
 
-        <x-timer :action="route('challenge.complete')" :song="$song" />
+        <x-timer :action="route('challenge.complete.mail')" :song="$song" />
     </div>
 @endsection
