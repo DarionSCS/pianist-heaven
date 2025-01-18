@@ -10,6 +10,6 @@ class SongsTableSeeder extends Seeder
 {
     public function run()
     {
-        Song::factory()->count(10)->create();
+        Song::factory()->count(20)->create();
     }
 }
