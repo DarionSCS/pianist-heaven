@@ -1,0 +1,11 @@
+User-agent: *
+Disallow:
+
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /profile/
+Disallow: /password/
+Disallow: /filament/
+
+Sitemap: https://niche-community-darionscs.ddev.site/sitemap.xml
